@@ -35,4 +35,8 @@ class CountryController extends Controller{
 //            'msg' => 'yea',
 //        ]);
     }
+    public function actionSit()
+    {
+        return $this->render('two');
+    }
 }

@@ -24,12 +24,3 @@ class EntryForm extends Model
         ];
     }
 }
-$model = new EntryForm();
-$model->name = 'Quang';
-$model->email = 'wrong';
-if ($model->validate()){
-    //Good!
-} else {
-    //Failure!
-    // Use $model->getErrors()
-}

@@ -9,7 +9,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-       <b>Hello my dear friend!</b>
+       <b>Hello my dear friend <?= Html::encode($name)?>!</b>
        <i>P.S. A love my Lili*** She love me too!</i>
     </p>
 

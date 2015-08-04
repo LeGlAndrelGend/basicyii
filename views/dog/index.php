@@ -9,7 +9,7 @@ use yii\grid\GridView;
 $this->title = 'Dogs';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="dog-index"> 
+<div class="dog-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
